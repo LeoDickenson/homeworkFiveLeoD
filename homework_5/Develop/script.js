@@ -1,15 +1,16 @@
-let saveBtn = document.getElementById('save');
-let entry = document.getElementById('8am');
+var saveBtn = document.getElementById('save');
+var entry = document.getElementById('8am');
 
-entry.addEventListener('submit', (e) => {
-    e.preventDefault();
 
     saveBtn.addEventListener('click',(e) => {
         e.preventDefault();
-        let submission = document.getElementById('8am');
-        console.log(submission)
+        var submission = document.getElementById('8AM');
+
+        if(localStorage.getItem('8AM')== null){
+            localStorage.setItem('8AM', '[]');
+        }
         
         submission = submission.value;
         localStorage.setItem('8AM',submission)
-})
 });
+
