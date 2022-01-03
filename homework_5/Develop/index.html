@@ -21,65 +21,59 @@
     <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
   </head>
-
+  
   <body>
-
+    
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-
-    <div class="container">
-
-<form>
-
-  <h1>TO-DOs</h1>
-
-  <label for="hours">Choose a Time:</label>
-
-  <select name="hours" id="hours">
-
-    <option value="8am">8am:</option>
-    <option value="9am">9am:</option>
-    <option value="10am">10am:</option>
-    <option value="11am">11am:</option>
-
-  </select>
-
-  <div>
-
-    <input>
     
-    <div>
-
-      <button>Save</button>
-
-    </div>
-  
-  </div>
-
-</form>
-<!--       
-      <table class="table table-hover">
-
-        <tbody>
-          <tr>
-            <th scope="row">8am</th>
-
-            make each a form -->
-            <!-- <td> -->
-              <!-- <div class="input-group input-group-sm mb-3"> -->
-                <!-- <input type="text" class="form-control" id="8am" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"> -->
-              <!-- </div> -->
-              <!-- <button id="svbtn8">save</button> -->
-            <!-- </td> -->
-
-        <!-- </tbody> -->
-      <!-- </table> -->
-    </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-  </body>
-</html>
+    <div class="container">
+      
+      <form id='myform'>
+        <h1>For Today</h1>
+        <!-- <label for="hours">Choose a Time:</label> -->
+        <!-- <select name="hours" id="hours">
+          hello world
+          <option value="8am">8am:</option>
+          <option value="9am">9am:</option>
+          <option value="10am">10am:</option>
+          <option value="11am">11am:</option>
+        </select> -->
+        <div>
+          <input placeholder="enter task here..." name="input-task" id="input-task">
+          <div>
+          </div>
+          <button id="btn">Save</button>
+          <div id="submitted-task">
+            <!-- saved content here -->this is where saved stuff goes
+          </div>
+        </div>
+      </form>
+      <!--       
+        <table class="table table-hover">
+          
+          <tbody>
+            <tr>
+              <th scope="row">8am</th>
+              
+              make each a form -->
+              <!-- <td> -->
+                <!-- <div class="input-group input-group-sm mb-3"> -->
+                  <!-- <input type="text" class="form-control" id="8am" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"> -->
+                  <!-- </div> -->
+                  <!-- <button id="svbtn8">save</button> -->
+                  <!-- </td> -->
+                  
+                  <!-- </tbody> -->
+                  <!-- </table> -->
+                </div>
+                
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+                <script type="text/javascript" src="./script.js"></script>
+              </body>
+              </html>
+              
