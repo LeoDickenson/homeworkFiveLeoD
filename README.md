@@ -1,8 +1,11 @@
-# homeworkFiveLeoD
-Added a form formatting to the html
-attemting to debug javascript
-made several attempts at rebuilding the javascript. kept failing to save input to local storage.
-attempting to revisit assignment and debug javascript
-removed classes and ids from html items
-cleaned up html further, removed corresponding css and js
-added functionality to the save button to update text below button
+
+# EasyDay
+This work day planner will save your daily tasks for each hour from 8am to 8pm.
+
+
+## Features
+
+- Save button for each hour
+- Clear button for each hour
+- Submissions persist after page refreshes
+
