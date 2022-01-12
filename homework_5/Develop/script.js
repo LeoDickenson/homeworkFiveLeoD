@@ -1,7 +1,7 @@
-var submitButton = document.querySelector("#btn");
-var inputArea = document.querySelector("#input-task");
-var responseArea = document.querySelector("#submitted-task");
-var resetForm = document.getElementById('myform').reset();
+var submitButton = document.getElementById("btn");
+var inputArea = document.getElementById("input-task");
+var responseArea = document.getElementById("submitted-task");
+var resetForm = document.getElementById('myform')
 
 
 
@@ -10,7 +10,8 @@ function postTask (e) {
     let tasked = inputArea.value;
     console.log(tasked)
     responseArea.textContent = tasked;
-    return(resetForm);
+    localStorage.setItem('8AM',tasked);
+    resetForm.reset()
 };
 submitButton.addEventListener("click", postTask);
 // var saveBtn = document.getElementById('save');

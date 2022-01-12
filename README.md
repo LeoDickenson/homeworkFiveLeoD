@@ -5,3 +5,4 @@ made several attempts at rebuilding the javascript. kept failing to save input t
 attempting to revisit assignment and debug javascript
 removed classes and ids from html items
 cleaned up html further, removed corresponding css and js
+added functionality to the save button to update text below button

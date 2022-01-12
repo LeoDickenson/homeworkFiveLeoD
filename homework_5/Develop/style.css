@@ -21,6 +21,10 @@ textarea {
   border-bottom: 10px solid black;
 }
 
-.description {
-  white-space: pre-wrap;
+#formbox {
+  display: inline-flex;
+}
+#main-container {
+  display: inline-flex;
+  align-content: space-between;
 }
