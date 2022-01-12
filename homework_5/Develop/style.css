@@ -3,7 +3,6 @@ body {
   font-size: 16px;
   line-height: 1;
 }
-
 textarea {
   background: transparent;
   border: none;
@@ -11,6 +10,9 @@ textarea {
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+}
+label {
+  margin-left: 10px;
 }
 
 .jumbotron {
@@ -21,10 +23,24 @@ textarea {
   border-bottom: 10px solid black;
 }
 
-#formbox {
-  display: inline-flex;
-}
 #main-container {
   display: inline-flex;
-  align-content: space-between;
+  width: 100%;
+}
+#completed-tasks {
+  background-color: blanchedalmond;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.textareas {
+  background-color: rgba(59, 50, 43, 0.288);
+  border-radius: 5px;
+  text-align: center;
+  width: 100%s;
+  margin-left: 10px;
+  margin-right: 10px;
 }
